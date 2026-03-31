@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  
+  <div class="sidebar">
+    <div class="profile">
+      <img src="perfil.jpg" alt="Foto do Aluno">
+      <a href=""><h3>MEU PERFIL</h3></a>
+    </div>
+    <ul>
+      <li class="active"><i class="fa fa-dollar-sign"></i> HOME</li>
+      <li><i class="fa fa-tasks"></i><a href="paiboletim.html"> GERAL</a></li>
+      <li><i class="fa fa-tasks"></i> ATUALIZAÇÕES</li>
+      <li><i class="fa fa-book"></i> RELATÓRIOS</li>
+      <li><i class="fa fa-id-card"></i> GASTOS</li>
+      <li><i class="fa fa-book"></i> CONFIGURAÇÕES</li>
+      <li><i class="fa fa-comments"></i> SOBRE</li>
+    </ul>
+  </div>
+
+  <div class="main">
+    <div class="topbar">
+      <button class="menu-btn"><i class="fa fa-bars"></i></button>
+      <span class="welcome">Bem-vindo(a) ao Samsarah!</span>
+      <button class="logout-btn"><a href="login.html">Sair</a></button>
+    </div>
+
+    <div class="content">
+      <h2>Boletim</h2>
+      <p class="breadcrumb">» Painel do Aluno » Boletim</p>
+
+      <div class="table-box">
+        <div class="table-controls">
+          <label>Resultados por Página
+            <select>
+              <option>10</option>
+              <option>25</option>
+              <option>50</option>
+            </select>
+          </label>
+          <input type="text" placeholder="Digite...">
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Ano</th>
+              <th>Turma</th>
+              <th>Nome</th>
+              <th>RA</th>
+              <th>Disciplina</th>
+              <th>1º Bim</th>
+              <th>2º Bim</th>
+              <th>3º Bim</th>
+              <th>4º Bim</th>
+              <th>Recuperação</object></th>
+              <th>Média</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2025</td>
+              <td>02</td>
+              <td>JOÃO PEDRO</td>
+              <td>12345</td>
+              <td>Língua Portuguesa</td>
+              <td>8,5</td>
+              <td>7,6</td>
+              <td>9</td>
+              <td>10</td>
+              <td>0</td>
+              <td>8,7</td>
+              <td><button class="pago">✔ Aprovado</button></td>
+            </tr>
+            <tr>
+              <td>2025</td>
+              <td>02</td>
+              <td>JOÃO PEDRO</td>
+              <td>12345</td>
+              <td>Matemática</td>
+              <td>8</td>
+              <td>7</td>
+              <td>10</td>
+              <td>8</td>
+              <td>0</td>
+              <td>8,2</td>
+              <td><button class="pago">✔ Aprovado</button></td>
+            </tr>
+            <tr>
+              <td>2025</td>
+              <td>02</td>
+              <td>JOÃO PEDRO</td>
+              <td>12345</td>
+              <td>História</td>
+              <td>6</td>
+              <td>9</td>
+              <td>10</td>
+              <td>4</td>
+              <td>0</td>
+              <td>7,2</td>
+              <td><button class="pago">✔ Aprovado</button></td>
+            </tr>
+            <tr>
+              <td>2025</td>
+              <td>02</td>
+              <td>JOÃO PEDRO</td>
+              <td>12345</td>
+              <td>Ciências</td>
+              <td>9</td>
+              <td>3</td>
+              <td>7</td>
+              <td>8</td>
+              <td>5</td>
+              <td>8</td>
+              <td><button class="pago">✔ Aprovado</button></td>
+            </tr>
+            <tr>
+              <td>2025</td>
+              <td>02</td>
+              <td>JOÃO PEDRO</td>
+              <td>12345</td>
+              <td>Geografia</td>
+              <td>8</td>
+              <td>7</td>
+              <td>10</td>
+              <td>8,7</td>
+              <td>0</td>
+              <td>8,4</td>
+              <td><button class="pago">✔ Aprovado</button></td>
+            </tr>
+            <!-- Adicione mais linhas conforme necessário -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
